@@ -1,3 +1,32 @@
+:root {
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+  --eerie-black: rgb(26, 26, 26);
+  --x11-gray: rgb(187, 187, 187);
+  --granite-gray: rgb(102, 102, 102);
+  --banana-yellow: rgb(255, 221, 54);
+  --brigth-pink: rgb(255, 5, 130);
+}
+
 body {
-  background-color: aqua;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: Nunito, Montserrat, Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  margin: 1rem;
+  font-size: 3rem;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
