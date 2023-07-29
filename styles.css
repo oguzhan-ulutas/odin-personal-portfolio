@@ -22,7 +22,8 @@ body {
   background-color: var(--eerie-black);
   color: var(--cream-white);
   display: grid;
-  grid-template-rows: 100vh 8rem 100vh 100vh 100vw 2rem;
+  grid-template-rows: 100vh 4rem 100vh 100vh 100vw 2rem;
+  gap: 2rem;
 }
 
 .intro {
@@ -69,20 +70,18 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
-  margin: 1rem;
-  font-size: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
   position: -webkit-sticky;
   position: sticky;
-  top: 2rem;
-  left: 2rem;
+  top: 0.5rem;
   z-index: 10;
   background-color: var(--eerie-black);
-  width: 85%;
+  border: solid 1px var(--brigth-pink);
 }
 
 .header-nav {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 8rem;
 }
