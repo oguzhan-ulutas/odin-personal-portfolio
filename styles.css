@@ -85,3 +85,48 @@ body {
   justify-content: center;
   gap: 8rem;
 }
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 5vh;
+  padding: 2%;
+
+  color: var(--x11-gray);
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 50%;
+}
+.about-about {
+  font-size: 2vh;
+  line-height: 300%;
+}
+
+.about-header {
+  font-size: 7vh;
+}
+.about-img img {
+  width: 50%;
+}
+
+.about-img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 7%;
+}
+.about-img-container {
+  max-width: 30%;
+  max-height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  background-color: var(--banana-yellow);
+}
