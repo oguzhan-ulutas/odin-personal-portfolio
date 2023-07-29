@@ -53,6 +53,19 @@ body {
   }
 }
 
+@keyframes typing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.intro-text {
+  animation: typing 10s ease-in-out;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
