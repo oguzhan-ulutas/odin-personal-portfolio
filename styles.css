@@ -79,6 +79,13 @@ body {
   z-index: 10;
   background-color: var(--eerie-black);
   border: solid 1px var(--brigth-pink);
+  text-align: center;
+  opacity: 0;
+  transition: opacity ease-in-out 1s;
+}
+
+.header:hover {
+  opacity: 1;
 }
 
 .header-nav {
@@ -233,4 +240,11 @@ a img {
 
 .footer {
   text-align: center;
+}
+
+.home:hover,
+.about-nav:hover,
+.portfolio-nav:hover,
+.content-nav:hover {
+  font-size: 2vh;
 }
