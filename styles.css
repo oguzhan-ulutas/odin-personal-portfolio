@@ -22,7 +22,7 @@ body {
   background-color: var(--eerie-black);
   color: var(--cream-white);
   display: grid;
-  grid-template-rows: 100vh 4rem 100vh 100vh 100vw 2rem;
+  grid-template-rows: 100vh 4rem 100vh 170vh 100vh 2rem;
   gap: 2rem;
 }
 
@@ -71,6 +71,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  margin: 2px;
   font-size: 1.5rem;
   position: -webkit-sticky;
   position: sticky;
@@ -94,6 +95,7 @@ body {
   padding: 2%;
 
   color: var(--x11-gray);
+  border-bottom: solid 1px var(--brigth-pink);
 }
 
 .about-info {
@@ -104,14 +106,20 @@ body {
 }
 .about-about {
   font-size: 2vh;
-  line-height: 300%;
+  line-height: 250%;
+  padding: 3%;
 }
 
-.about-header {
-  font-size: 7vh;
+.about-header,
+.portfolio-header {
+  font-size: 4vh;
+  background-color: var(--brigth-pink);
+  padding-left: 2vw;
+  border-radius: 1rem;
+  max-width: 40vw;
 }
 .about-img img {
-  width: 50%;
+  width: 60%;
 }
 
 .about-img {
@@ -129,4 +137,54 @@ body {
   align-items: center;
   gap: 2vh;
   background-color: var(--banana-yellow);
+  font-size: 140%;
+}
+
+.app > img {
+  width: 50vh;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.app {
+  display: flex;
+  gap: 4vh;
+  padding: 3vh;
+  margin: 1vh;
+  font-size: 2vh;
+  color: var(--x11-gray);
+  border: solid 1px var(--banana-yellow);
+  border-radius: 4vh;
+}
+
+.app-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70%;
+}
+
+.app-links {
+  display: flex;
+  justify-content: center;
+  gap: 4vh;
+}
+
+a {
+  text-decoration: none;
+  color: var(--x11-gray);
+  background-color: var(--banana-yellow);
+  padding: 2vh;
+  border-radius: 2vh;
+  transition: all ease-in-out 1s;
+}
+
+a:hover,
+a:focus {
+  background-color: var(--brigth-pink);
 }
