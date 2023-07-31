@@ -22,7 +22,7 @@ body {
   background-color: var(--eerie-black);
   color: var(--cream-white);
   display: grid;
-  grid-template-rows: 100vh 4rem 100vh 170vh 100vh 2rem;
+  grid-template-rows: 100vh 4rem 100vh 170vh 50vh 2rem;
   gap: 2rem;
 }
 
@@ -150,6 +150,7 @@ body {
   flex-direction: column;
   gap: 5vh;
   border-bottom: solid 1px var(--brigth-pink);
+  color: var(--x11-gray);
 }
 
 .app {
@@ -195,6 +196,9 @@ a:focus {
   display: flex;
   flex-direction: column;
   gap: 4vh;
+
+  color: var(--x11-gray);
+  border-bottom: solid 1px var(--brigth-pink);
 }
 
 .contact-container {
@@ -225,4 +229,8 @@ a:focus {
 
 a img {
   width: 4vh;
+}
+
+.footer {
+  text-align: center;
 }
