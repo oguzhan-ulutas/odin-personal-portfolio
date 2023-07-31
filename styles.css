@@ -111,7 +111,8 @@ body {
 }
 
 .about-header,
-.portfolio-header {
+.portfolio-header,
+.contact-header {
   font-size: 4vh;
   background-color: var(--brigth-pink);
   padding-left: 2vw;
@@ -148,6 +149,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5vh;
+  border-bottom: solid 1px var(--brigth-pink);
 }
 
 .app {
@@ -187,4 +189,40 @@ a {
 a:hover,
 a:focus {
   background-color: var(--brigth-pink);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-info {
+  font-size: 5vh;
+  padding: 2vh;
+  border-right: solid 1px var(--banana-yellow);
+}
+
+.contact-links {
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4vh;
+}
+
+.contact-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+}
+
+a img {
+  width: 4vh;
 }
