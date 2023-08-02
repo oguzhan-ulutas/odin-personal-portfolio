@@ -100,10 +100,8 @@ body {
 .about {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 5vh;
   padding: 2%;
-
   color: var(--x11-gray);
   border-bottom: solid 1px var(--brigth-pink);
 }
